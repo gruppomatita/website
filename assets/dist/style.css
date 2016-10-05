@@ -1,0 +1,70 @@
+@font-face {
+	font-family: 'youngserifregular';
+	src: url('../src/fonts/YoungSerif-Regular.woff2') format('woff2'),
+		url('../src/fonts/YoungSerif-Regular.woff') format('woff'),
+		url('../src/fonts/YoungSerif-Regular.ttf') format('truetype'),
+		url('../src/fonts/YoungSerif-Regular.eot') format('eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'officecodepro';
+	src: url('../src/fonts/OfficeCodeProD-Regular.woff2') format('woff2'),
+		url('../src/fonts/OfficeCodeProD-Regular.woff') format('woff'),
+		url('../src/fonts/OfficeCodeProD-Regular.ttf') format('truetype'),
+		url('../src/fonts/OfficeCodeProD-Regular.eot') format('eot');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'officecodepro';
+	src: url('../src/fonts/OfficeCodeProD-Medium.woff2') format('woff2'),
+		url('../src/fonts/OfficeCodeProD-Medium.woff') format('woff'),
+		url('../src/fonts/OfficeCodeProD-Medium.ttf') format('truetype'),
+		url('../src/fonts/OfficeCodeProD-Medium.eot') format('eot');
+	font-weight: 600;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+}
+
+.container {
+	display: table;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	background: black;
+}
+
+.container .table {
+	display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+
+.container .table h1 {
+    font-family: 'youngserifregular';
+    margin: 20px auto;
+    font-size: 4em;
+}
+
+.container .table hr {
+	width: 200px;
+	margin: 20px auto;
+}
+
+.container .table p {
+	font-family: 'officecodepro';
+    margin: 25px auto;
+    font-size: .75em;
+}
