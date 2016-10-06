@@ -56,6 +56,7 @@ body {
 	font-family: 'officecodepro';
 	font-size: 1em;
 	text-transform: uppercase;
+	cursor: pointer;
 }
 
 .navbar ul li a:hover {
