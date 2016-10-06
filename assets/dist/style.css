@@ -38,6 +38,34 @@ body {
 	position: fixed;
 }
 
+.navbar ul {
+	list-style-type: none;
+	margin: 25px;
+	padding: 0;
+
+}
+
+.navbar ul li {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.navbar ul li a {
+	color: white;
+	text-decoration: none;
+	font-family: 'officecodepro';
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.navbar ul li a:hover {
+	text-decoration: underline;
+}
+
+.navbar .pageon {
+	text-decoration: underline;
+}
+
 .container {
 	display: table;
 	width: 100%;
@@ -48,14 +76,14 @@ body {
 
 .container .table {
 	display: table-cell;
-    vertical-align: middle;
-    color: white;
+	vertical-align: middle;
+	color: white;
 }
 
 .container .table h1 {
-    font-family: 'youngserifregular';
-    margin: 20px auto;
-    font-size: 4em;
+	font-family: 'youngserifregular';
+	margin: 20px auto;
+	font-size: 4em;
 }
 
 .container .table hr {
@@ -65,6 +93,6 @@ body {
 
 .container .table p {
 	font-family: 'officecodepro';
-    margin: 25px auto;
-    font-size: .75em;
+	margin: 25px auto;
+	font-size: .75em;
 }
