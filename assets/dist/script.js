@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+	$("#table").load("pages/home.html");
+
 	$("#chi_siamo").click(function(){
 		$("#table").html("<p>the one and only gruppo matita</p>");
 		$("#home").removeClass("pageon");
