@@ -14,13 +14,6 @@ $(document).ready(function(){
 		$("#home").removeClass("pageon");
 		$("#ricerca").removeClass("pageon");
 		$(this).addClass("pageon");
-		$(".tooltip").tooltipster({
-			animation: 'grow',
-			arrow: false,
-			maxWidth: 300,
-			theme: 'tooltipster-shadow',
-			trigger: 'click'
-		});
 	});
 
 	$("#home").click(function(){
@@ -29,5 +22,4 @@ $(document).ready(function(){
 		$("#ricerca").removeClass("pageon");
 		$(this).addClass("pageon");
 	});
-	
 });
