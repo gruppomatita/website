@@ -1,27 +1,68 @@
 <div class="about_img">
-				<div class="trigger tooltip" style="left:21%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
+				<div class="trigger tooltip_gugli" style="left:21%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
 Adoro l’odore della vernice e dell’inchiostro fresco, aspiro le “c” (speriamo non troppo), non vado d'accordo con gli sport, sono testarda, pratico yoga e a colazione mangio sempre una banana.</p>"></div>
 
-				<div class="trigger tooltip" style="left:33%; margin-top:2%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
+				<div class="trigger tooltip_chiara" style="left:33%; margin-top:2%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
 Adoro l’odore della vernice e dell’inchiostro fresco, aspiro le “c” (speriamo non troppo), non vado d'accordo con gli sport, sono testarda, pratico yoga e a colazione mangio sempre una banana.</p>"></div>
 
-				<div class="trigger tooltip" style="left:45%; margin-top:3%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
+				<div class="trigger tooltip_fra" style="left:45%; margin-top:3%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
 Adoro l’odore della vernice e dell’inchiostro fresco, aspiro le “c” (speriamo non troppo), non vado d'accordo con gli sport, sono testarda, pratico yoga e a colazione mangio sempre una banana.</p>"></div>
 
-				<div class="trigger tooltip" style="left:57%; margin-top:3%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
+				<div class="trigger tooltip_ire" style="left:57%; margin-top:3%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
 Adoro l’odore della vernice e dell’inchiostro fresco, aspiro le “c” (speriamo non troppo), non vado d'accordo con gli sport, sono testarda, pratico yoga e a colazione mangio sempre una banana.</p>"></div>
 
-				<div class="trigger tooltip" style="left:69%; margin-top:2%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
+				<div class="trigger tooltip_gigi" style="left:69%; margin-top:2%;" title="<h3>IRENE MANETTI</h3><p>Nasco a Firenze nel 1995, mi diplomo al Liceo Artistico e decido di studiare design a Milano. 
 Adoro l’odore della vernice e dell’inchiostro fresco, aspiro le “c” (speriamo non troppo), non vado d'accordo con gli sport, sono testarda, pratico yoga e a colazione mangio sempre una banana.</p>"></div>
 
 				<img src="assets/src/gruppomatita.jpg">
 			</div>
 			<script type="text/javascript">
-				$(".tooltip").tooltipster({
+				$(".tooltip_gugli").tooltipster({
 					animation: 'grow',
 					arrow: false,
 					contentAsHTML: true,
 					maxWidth: 300,
+					side: ['bottom', 'right'],
+					theme: 'tooltipster-shadow',
+					trigger: 'hover'
+				});
+
+				$(".tooltip_chiara").tooltipster({
+					animation: 'grow',
+					arrow: false,
+					contentAsHTML: true,
+					maxWidth: 300,
+					side: ['left', 'bottom'],
+					theme: 'tooltipster-shadow',
+					trigger: 'hover'
+				});
+
+				$(".tooltip_fra").tooltipster({
+					animation: 'grow',
+					arrow: false,
+					contentAsHTML: true,
+					maxWidth: 300,
+					side: ['right', 'top'],
+					theme: 'tooltipster-shadow',
+					trigger: 'hover'
+				});
+
+				$(".tooltip_ire").tooltipster({
+					animation: 'grow',
+					arrow: false,
+					contentAsHTML: true,
+					maxWidth: 300,
+					side: ['right', 'top'],
+					theme: 'tooltipster-shadow',
+					trigger: 'hover'
+				});
+
+				$(".tooltip_gigi").tooltipster({
+					animation: 'grow',
+					arrow: false,
+					contentAsHTML: true,
+					maxWidth: 300,
+					side: ['left', 'bottom'],
 					theme: 'tooltipster-shadow',
 					trigger: 'hover'
 				});
