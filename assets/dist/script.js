@@ -2,6 +2,14 @@ $(document).ready(function(){
 
 	$("#table").load("pages/home.html");
 
+	$(".tooltip").tooltipster({
+		animation: 'grow',
+		arrow: false,
+		maxWidth: 300,
+		theme: 'tooltipster-shadow',
+		trigger: 'click'
+	});
+
 	$("#ricerca").click(function(){
 		$("#table").load("pages/ricerca.html");
 		$("#home").removeClass("pageon");

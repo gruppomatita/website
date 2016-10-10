@@ -18,26 +18,34 @@ body {
 	margin: 0;
 	padding: 0;
 	background: black;
+	overflow:hidden;
 }
 
 .navbar {
 	display: inline-block;
 	position: fixed;
+	background: black;
 	width: 100%;
 	z-index: 9999;
 }
 
 .navbar ul {
 	list-style-type: none;
-	margin: 25px;
+	margin: 25px 0;
 	padding: 0;
+}
 
+@media screen and (min-width: 768px) {
+	.navbar ul {
+		margin: 25px;
+	}
 }
 
 .navbar ul li {
 	vertical-align: middle;
 	display: inline-block;
 	margin: 0 25px;
+	cursor: pointer;
 }
 
 .navbar ul li a {
@@ -46,7 +54,6 @@ body {
 	font-family: 'officecodepro';
 	font-size: 1em;
 	text-transform: uppercase;
-	cursor: pointer;
 }
 
 .navbar ul li:hover {
@@ -79,4 +86,43 @@ body {
 	font-family: 'youngserifregular';
 	margin: 20px auto;
 	font-size: 4em;
+}
+
+.container .table p {
+	font-family: 'officecodepro';
+	font-size: 1em;
+	text-transform: uppercase;
+}
+
+.container .table p a {
+	color: white;
+}
+
+.container .table .about_img {
+	display: inline-block;
+	position: relative;
+	width: 100vw;
+	overflow: hidden;
+}
+
+.container .table .about_img img {
+	width: 100%;
+}
+
+.container .table .about_img .trigger {
+	position: absolute;
+	width: 10%;
+	height: 20%;
+	top: 35%;
+	cursor: pointer;
+	background: transparent;
+}
+
+@media screen and (min-width: 1280px) {
+	.container .table .about_img img {
+		margin-top: -50px;
+	}
+		.container .table .about_img .trigger {
+		top: 30%;
+	}
 }
