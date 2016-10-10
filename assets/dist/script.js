@@ -2,6 +2,13 @@ $(document).ready(function(){
 
 	$("#table").load("pages/home.html");
 
+	$("#ricerca").click(function(){
+		$("#table").load("pages/ricerca.html");
+		$("#home").removeClass("pageon");
+		$("#chi_siamo").removeClass("pageon");
+		$(this).addClass("pageon");
+	});
+
 	$("#chi_siamo").click(function(){
 		$("#table").load("pages/about.html");
 		$("#home").removeClass("pageon");

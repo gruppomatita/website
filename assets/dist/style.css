@@ -21,8 +21,10 @@ body {
 }
 
 .navbar {
-	width: 100%;
+	display: inline-block;
 	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .navbar ul {
@@ -47,11 +49,7 @@ body {
 	cursor: pointer;
 }
 
-#home:hover {
-	background: white;
-}
-
-.navbar ul li a:hover {
+.navbar ul li:hover {
 	text-decoration: underline;
 }
 
@@ -81,26 +79,4 @@ body {
 	font-family: 'youngserifregular';
 	margin: 20px auto;
 	font-size: 4em;
-}
-
-.container .table hr {
-	width: 200px;
-	margin: 20px auto;
-}
-
-.container .table p {
-	font-family: 'officecodepro';
-	margin: 50px auto 0 auto;
-	font-size: .75em;
-}
-
-.container .table .about_img {
-	width: 100%;
-	min-height: 50vh;
-	max-height: 60vh;
-	overflow: hidden;
-}
-
-.container .table .about_img img {
-	width: 100%;
 }
