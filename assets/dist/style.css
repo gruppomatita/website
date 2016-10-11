@@ -133,13 +133,28 @@ body {
 	overflow: visible;
 }
 
-.container .table .brief h3 {
-	font-size: 3em;
+.container .table .brief a {
+	display: block;
+	margin: 32px 0;
+	color: white;
+	text-decoration: none;
 }
 
-.container .table .brief p {
-	font-size: 0.75em;
-	text-transform: none;
+.container .table .brief a h3 {
+	display: inline-block;
+	margin: 0;
+	font-family: 'youngserifregular';
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.container .table .brief a p {
+	display: inline-block;
+	margin: 0;
+	font-family: 'officecodepro';
+	font-size: 1em;
+	line-height: 2em;
+	text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
