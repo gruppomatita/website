@@ -2,8 +2,8 @@ $(document).ready(function(){
 
 	$("#table").load("pages/home.html");
 
-	$("#ricerca").click(function(){
-		$("#table").load("pages/ricerca.html");
+	$("#brief").click(function(){
+		$("#table").load("pages/brief.html");
 		$("#home").removeClass("pageon");
 		$("#chi_siamo").removeClass("pageon");
 		$(this).addClass("pageon");
@@ -12,14 +12,14 @@ $(document).ready(function(){
 	$("#chi_siamo").click(function(){
 		$("#table").load("pages/about.html");
 		$("#home").removeClass("pageon");
-		$("#ricerca").removeClass("pageon");
+		$("#brief").removeClass("pageon");
 		$(this).addClass("pageon");
 	});
 
 	$("#home").click(function(){
 		$("#table").load("pages/home.html");
 		$("#chi_siamo").removeClass("pageon");
-		$("#ricerca").removeClass("pageon");
+		$("#brief").removeClass("pageon");
 		$(this).addClass("pageon");
 	});
 });

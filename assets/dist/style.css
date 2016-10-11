@@ -18,7 +18,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background: black;
-	overflow:hidden;
+	overflow: hidden;
 }
 
 .navbar {
@@ -124,5 +124,26 @@ body {
 	}
 		.container .table .about_img .trigger {
 		top: 30%;
+	}
+}
+
+.container .table .brief {
+	padding: 100px 200px;
+	text-align: left;
+	overflow: visible;
+}
+
+.container .table .brief h3 {
+	font-size: 3em;
+}
+
+.container .table .brief p {
+	font-size: 0.75em;
+	text-transform: none;
+}
+
+@media screen and (max-width: 768px) {
+	.container .table .brief {
+		padding: 75px 50px;
 	}
 }
