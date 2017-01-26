@@ -128,6 +128,8 @@ body {
 }
 
 .container .table .brief {
+	display: inline-block;
+	box-sizing: border-box;
 	padding: 100px 200px;
 	text-align: left;
 	overflow: visible;
@@ -196,6 +198,13 @@ body {
 		padding: 75px 50px;
 	}
 	.container .table .vvvv_container {
-		padding: 75px 0;
+		padding: 0;
+	}
+	.container .table .vvvv_container .vvvv {
+		padding: 0;
+	}
+	.container .table .vvvv_container .vvvv video {
+		height: auto;
+		max-width: 100%;
 	}
 }
