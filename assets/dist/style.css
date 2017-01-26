@@ -133,7 +133,7 @@ body {
 	overflow: visible;
 }
 
-.container .table .brief a {
+.container .table a {
 	display: block;
 	margin: 32px 0;
 	color: white;
@@ -157,8 +157,36 @@ body {
 	text-transform: uppercase;
 }
 
+.container .table .vvvv_container {
+	display: inline-block;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 150px;
+	text-align: left;
+}
+
+.container .table .vvvv_container a h3 {
+	display: inline-block;
+	margin: 0;
+	margin-left: 50px;
+	font-family: 'youngserifregular';
+	font-size: 2em;
+	text-decoration: underline;
+}
+
+.container .table .vvvv_container .vvvv {
+	padding: 0 50px;
+}
+
+.container .table .vvvv_container .vvvv video {
+	height: 250px;
+}
+
 @media screen and (max-width: 768px) {
 	.container .table .brief {
 		padding: 75px 50px;
+	}
+	.container .table .vvvv_container {
+		padding: 75px 0;
 	}
 }
